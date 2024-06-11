@@ -1,0 +1,70 @@
+
+.todo-list {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(14, 24, 41);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input and Button */
+.input-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.delete-btn{
+    margin-left: 20px;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Completed Todo Styling */
+li span.completed {
+    text-decoration: line-through;
+    color: #999;
+}
